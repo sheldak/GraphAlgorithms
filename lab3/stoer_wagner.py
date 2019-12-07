@@ -76,7 +76,6 @@ def minimum_cut_phase(G, curr_size):
             print(S, s, t)
 
     merge_vertices(G, s, t)
-    print(weight_sum[s])
     return weight_sum[s]
 
 
