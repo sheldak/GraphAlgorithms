@@ -13,10 +13,10 @@ class Node:
 
 
 def load_graph(file_path):
-    (v_num, vertices) = loadWeightedGraph(file_path)
+    (v_num, edges) = loadWeightedGraph(file_path)
     graph = [None] + [Node(i) for i in range(1, v_num + 1)]  # to index vertices by their number
 
-    for (u, v, _) in vertices:
+    for (u, v, _) in edges:
         graph[u].connect_to(v)
         graph[v].connect_to(u)
 

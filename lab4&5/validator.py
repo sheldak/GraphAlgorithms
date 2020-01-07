@@ -7,6 +7,7 @@ from subprocess import check_output
 # python3 validator.py "/home/sheldak/dev/PyCharm/GraphAlgorithms/lab4&5/chordal/" "/home/sheldak/dev/PyCharm/GraphAlgorithms/lab4&5/lexBFSAndPEO.py"
 # python3 validator.py "/home/sheldak/dev/PyCharm/GraphAlgorithms/lab4&5/maxclique/" "/home/sheldak/dev/PyCharm/GraphAlgorithms/lab4&5/maxClique.py"
 # python3 validator.py "/home/sheldak/dev/PyCharm/GraphAlgorithms/lab4&5/coloring/" "/home/sheldak/dev/PyCharm/GraphAlgorithms/lab4&5/coloring.py"
+# python3 validator.py "/home/sheldak/dev/PyCharm/GraphAlgorithms/lab4&5/interval/" "/home/sheldak/dev/PyCharm/GraphAlgorithms/lab4&5/interval.py"
 
 solutions = ""
 script = ""
